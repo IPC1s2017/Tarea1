@@ -1,0 +1,245 @@
+/* Importar fuentes desde Google Font */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700');
+
+
+body {
+  /*Configuración fondo de página*/
+  background: rgba(72, 87, 124, 0.5) url("https://cdn.pixabay.com/photo/2016/11/19/08/00/towel-1838210_960_720.jpg") no-repeat fixed;
+  background-size: 1920px 1280px;
+  background-size: 100% 100%;
+  /*Determina la familia de la fuente*/
+  font-family: "Montserrat", "Raleway", "Open Sans", sans-serif;
+  /*Determina el tamaño de la fuente*/
+  font-size: 19px;
+  /*Sin relleno alrededor del cuerpo*/
+  padding: 0px;
+  margin: 0px;
+}
+
+/**-------------------MENU DESPLEGABLE-------------------**/
+nav {
+  /*Determina el ancho del encabezado*/
+  width: 1216px;
+  /*Modifica el color del fondo del encabezado a un color similar al de imagen de fondo*/
+  background-color: rgba(72, 87, 124, 0.95);
+  /*Acomoda los elementos de lista*/
+  display: flex;
+  /*Justifica el encabezado en el centro*/
+  justify-content: center;
+  /*Centra los textos*/
+  text-align: center;
+  /*Distancia desde inferior del anterior bloque de 30px, «izq» y «der» auto*/
+  margin: 30px auto;
+  /*Posición determinada por el anterior bloque*/
+  position: relative;
+}
+
+nav ul{
+  /*Acomoda los elementos de lista*/
+  display: flex;
+  /*Elimina la viñeta de lista*/
+  list-style: none;
+}
+
+nav ul li a {
+  /*Alinea los elementos en forma de bloque*/
+  display: block;
+  /*Coloca relleno de 10 x 50 pixeles alrededor del bloque*/
+  padding: 10px 50px;
+  /*Modifica el color del texto a blanco*/
+  color: rgb(255,255,255);
+  /*Elimina el subrayado del hipervinculo*/
+  text-decoration:none;
+}
+
+nav ul ul {
+  /*Permite manipular la posición del bloque*/
+  position:absolute;
+  top: 81px;
+  /*Alinea los elementos en forma de bloque*/
+  display:block;
+  /*Modifica el color del fondo del encabezado a un color similar al de imagen de fondo*/
+  background: rgba(72, 87, 124,0.95);
+  /*Se traslada en  <x> en un 60%*/
+  transform: translateX(30%);
+  /*Lo mantiene "oculto"*/
+  visibility: hidden;
+  /*Retrasa 0.2s la pseudo-animación*/
+  transition: all .6s;
+  opacity: 0;
+}
+
+/*Se detonará cuando se pase encime el mouse*/
+nav li:hover ul {
+  /*Se vuelve visible*/
+  visibility: visible;
+  z-index: 99;
+  /*Regresa a su posición original*/
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+/*Se detonará cuando se pase encima el mouse*/
+nav li a:hover{
+  /*Cambia de color al detonar*/
+  color: rgba(112, 134, 189, 0.6);
+  /*Retrasa 0.3s la pseudo-animación*/
+  transition: all 0.3s;
+}
+
+/*-------------------HIDE 'N SEEK-------------------*/
+/*Estado Inicial, Solo Inicio visible*/
+.Inicio, .Mision, .Vision, .About, .Info{
+  z-index: 1;
+  display: none;
+  
+}
+
+.Mision:target{
+  display:grid;
+  position:relative;
+}
+.Inicio:target{
+  display:grid;
+  position:relative;
+}
+.Vision:target{
+  display:grid;
+  position:relative;
+}
+.About:target{
+  display:grid;
+  position:relative;
+}
+.Info:target{
+  display:grid;
+  position:relative;
+} 
+
+/*FORMATO GENERAL PARA EL BLOQUE <ARTICLE>*/
+article{
+  overflow: auto;
+  display: grid;
+  /*Determina el ancho del encabezado*/
+  width: 1216px;
+  /*Justifica el encabezado en el centro*/
+  justify-content: center;
+  /*Centra los textos*/
+  text-align: justify;
+  /*Distancia desde inferior del anterior bloque de 30px, «izq» y «der» auto*/
+  margin: 20px auto;
+  /*Posición determinada por el anterior bloque*/
+  position: relative;
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+
+/*FORMATO GENERAL PARA <h1>*/
+h1{
+  font-size: 40px;
+  padding: 20px;
+  background: rgba(72, 87, 124, 0.75);
+}
+
+/*FORMATO GENERAL PARA .ref*/
+.ref{
+  text-decoration: none;
+  font-weight: bold;
+  color:black;
+}
+
+/*FORMATO GENERAL PARA .div1 de .Inicio, .Info, .Abou*/
+.Inicio .div1 p, .Info .div1 p, .About .div1 p{
+  padding: 20px;
+  width: auto;
+  font-size: 25px;
+  text-indent: 4cm;
+  background: rgba(112, 134, 189, 0.75);
+}
+
+/*FORMATO GENERAL DE LA GALERÍA*/
+.Inicio .cols{
+  color:rgba(255, 255, 255, 1);
+  font-weight: bold;
+  font-size: 28px
+}
+.gal_contain{
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+  table-layout: fixed;
+  width:100%;
+  border: 20px double rgba(72, 87, 124, 0.75);
+  background: rgba(112, 134, 189, 0.75);
+}
+.gal_content{
+  margin: 10px;
+  border: 1px solid #000000;
+  float: left;
+  width: 275px;
+}
+.gal_content img{
+  width:100%;
+  height: auto;
+}
+.desc{
+  background: rgb(65, 82, 126);
+  color:rgba(255, 255, 255, 0.75);
+  font-weight: 100;
+}
+
+/*FORMATO GENERAL PARA .globodyne*/
+.globodyne{
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+}
+
+/*FORMATO ESPECÍFICO PARA .Mision*/
+.Mision ul{
+  background: rgba(112, 134, 189, 0.75);
+}
+.Mision ul li{
+  padding: 20px;
+  width: auto;
+  font-size: 25px;
+}
+
+/*FORMATO ESPECÍFICO PARA .Mision*/
+.Vision ol{
+  background: rgba(112, 134, 189, 0.75);
+}
+.Vision ol li{
+  padding: 20px;
+  width: auto;
+  font-size: 25px;
+}
+
+/*FORMATO ESPECIFICO PARA .About*/
+.About .ref1 p{
+  padding: 5px;
+  width: auto;
+  background: rgba(72, 87, 124, 0.75);
+  font-size: 16px;
+  text-align: right;
+  color: black;
+}
+.About thead{
+  font-size: 32px;
+}
+.About tbody{
+  font-size: 26px;
+}
+/*FORMATO GENERAL PARA <table>*/
+.About table{
+  /*Texto de la tabla alineado en el centro*/
+  text-align: center;
+  /*Fuente a utilizar en la tabla*/
+  font-family: "Open Sans", sans-serif;
+  /*Modifica la tabla, haciéndola más "previsible"*/
+  table-layout: fixed;
+  width:100%;
+  border: 10px inset rgba(72, 87, 124, 0.75);
+  background: rgba(112, 134, 189, 0.75);
+}
