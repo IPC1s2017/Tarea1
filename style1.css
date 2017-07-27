@@ -1,0 +1,187 @@
+* {
+  	/*border: 1px solid rgba(0, 0, 0, 0.3);*/
+  	/*box-sizing: border-box;*/
+	background-color: darkseagreen;
+}
+/*INICIO PAGINA PRINCIPAL*/
+.logo{
+
+	color: rgb(73,56,23);
+  	font-size: 60px;
+  	font-weight: 700;
+  	letter-spacing: 4px;
+  	padding: 0px 50px;
+}	
+.intro{
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	background-image: url("https://vignette3.wikia.nocookie.net/lovecraft/images/1/1d/Bosque_con_robles_1024.jpg/revision/latest?cb=20160924082130&path-prefix=es");
+  	background-size: cover;
+  	background-position: bottom center;
+  	height: 700px;
+  	width: 100%;
+}
+h3{
+	font-size: 35px;
+	color: rgb(74,13,6);
+	text-align: center; 
+}
+#cont{
+	margin: auto;
+	position: relative;
+}
+
+/*dise;o para que caiga*/
+.btn {
+    	background-color: rgb(76,102,0);
+   	color: white;
+    	padding: 16px;
+    	font-size: 25px;
+    	border: none;
+    	cursor: pointer;
+}
+
+.dro {
+        position: relative;
+    	display: inline-block;
+}
+
+.drocon {
+    	display: none;
+    	position: absolute;
+    	background-color: #f9f9f9;
+    	min-width: 160px;
+    	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    	z-index: 1;
+}
+.drocon a {
+    	color: black;
+    	padding: 12px 16px;
+	font-style: italic;
+    	display: block;
+}
+
+.drocon a:hover {background-color: #f1f1f1}
+
+.dro:hover .drocon {
+    	display: block;
+}
+
+.dro:hover .btn {
+    	background-color: #3e8e41;
+}
+
+
+/*fin dise;o para que caiga*/
+/*INICIO PAGINA PRINCIPAL*/
+
+/*INICIO PAGINA HOME*/
+
+.Ho{
+	
+}
+.pa{
+	background-color: peru;
+	font-size: 30px;
+	color: rgb(178,169,0);
+	text-align: center;	
+}
+.z{
+	font-size: 50px;
+	color: rgb(74,13,6);
+	text-align: left; 
+}
+
+.pro {
+  	display: inline-block;
+  	margin: 0px 2% 50px 2%;
+  	width: 45%;
+}
+
+.pro, img  {
+  	width:30%;
+	
+}
+/*FIN PAGINA HOME*/
+
+/*INICIO PAGINA INFO*/
+
+.titulo{
+	color: rgb(73,56,23);
+  	font-size: 50px;
+  	font-weight: 700;
+  	letter-spacing: 4px;
+  	padding: 0px 50px;
+}
+.descri{
+	font-size: 30px;
+	text-align: center;
+  	font-weight: 700;
+	background-image: url("https://esp.rt.com/actualidad/public_images/2015.03/article/5506051c71139eba738b458e.jpg");
+  	background-size: cover;
+  	background-position: bottom center;
+  	height: 700px;
+  	width: 100%;
+}
+
+/*FIN PAGINA INFO*/
+
+/*INICIO PAGINA VICION*/
+
+.dis{
+	font-size: 30px;
+	text-align: center;
+  	font-weight: 700;
+}
+p{
+	text-align: center;
+}
+.back{
+
+	background-image: url("http://ecologiahoy.net/wp-content/uploads/2015/01/resplandor-en-el-bosque.jpg");
+  	background-size: cover;
+  	background-position: bottom center;
+  	height: 700px;
+  	width: 100%;
+}
+
+.tit{
+	text-align: center;
+}
+
+table {
+	border: 1px solid black;
+	height: 40%;
+	left: 10%;
+  	margin: 20px auto;
+  	overflow-y: scroll;
+  	position: static;
+  	width: 80%;
+  	font-size:18px;
+}
+
+th, td {
+	border: 1px solid black;
+  	font-family: 'Lato', sans-serif;
+  	font-weight: 400;
+  	padding: 20px;
+  	text-align: left;
+  	width: 33.3333%;
+}
+
+tr {
+	border: 1px solid black;
+  	background: #f4f7f8;
+  	border-bottom: 1px solid #FFF;
+  	margin-bottom: 5px;
+}
+
+thead th {
+  	background: rgb(212,187,83);
+  	color: #FFF;
+  	font-family: 'Lato', sans-serif;
+  	font-size: 16px;
+  	font-weight: 100;
+  	letter-spacing: 2px;
+  	text-transform: uppercase;
+}
+
