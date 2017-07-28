@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mi primer sitio web</title>
+<style type="text/css">
+*{
+padding: 0px;
+margin:  0px;
+}
+#header
+{
+margin-left: 12px;
+width: 1000px;
+font family: Arial, Helvetica, sans-serif;
+}
+ul, ol
+{
+list-style:none;
+}
+.nav li a
+{
+background-color: #000;
+color:#fff;
+text-decoration:none;
+padding: 20px 77.5px;
+display:block;
+}
+.nav li a:hover
+{
+background-color: #434343;
+}
+.nav > li
+{
+float:left
+}
+.nav li ul
+{
+display: none;
+position:absolute;
+min-width: 140px;
+}
+.nav li a:hover > ul
+{
+display: block;
+}
+.nav li ul li
+{
+position: relative;
+}
+.nav li ul li ul
+{
+right: -140px;
+top: 0px;
+}
+</style>
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<div id="header">
+<ul class= "nav">
+<li><a href ="Home.html">Home</a></li>
+<li><a href ="About.html">About</a></li>
+<li><a href ="Info.html">Información</a></li>
+<li><a href ="Mision.html">Misión</a></li>
+<li><a href ="Vision.html">Visión</a></li>
+</ul>
+</div>
+<IMG SRC="A.jpg" HEIGHT=205>
+<ul class="galeria">
+<li><a href =""><img src="1.jpg"></a></li>
+<li><a href =""><img src="2.jpg"></a></li>
+<li><a href =""><img src="3.jpg"></a></li>
+<li><a href =""><img src="4.jpg"></a></li>
+<li><a href =""><img src="5.jpg"></a></li>
+<li><a href =""><img src="6.jpg"></a></li>
+</ul>
+</body>
+</html>
