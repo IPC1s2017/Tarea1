@@ -1,0 +1,199 @@
+﻿<! DOCTYPE html>
+<html>
+<head>
+	<title>Tarea1 IPC1</title>
+	<style type="text/css">
+
+*{
+	padding:0px;
+	margin :0px;
+	text-align: center;
+
+}
+body{
+	background-color: #A9E2F3;
+}
+
+.visor{
+	width: 90%;
+	margin:auto;
+	overflow: hidden;
+	padding-top: 15px;
+}
+.visor ul{
+	padding: 0;
+	display: flex;
+	width: 400%;
+	animation: cambio 20s infinite alternate;
+
+}
+.visor li{
+	list-style: none;
+	width: 100%
+}
+.visor img{
+	width: 100%;
+}
+@keyframes cambio  {
+	0%{margin-left: 0}
+	20%{margin-left: 0;}
+
+	25%{margin-left: -100%}
+	45%{margin-left: -100%;}
+
+	50%{margin-left: -200%}
+	70%{margin-left: -200%;}
+
+	75%{margin-left: -300%}
+	100%{margin-left: -300%;}
+}
+
+
+}
+#Encabezado{
+	margin:auto;
+	width: 100%;
+	font-family: Arial;
+	text-align: center;
+	margin-top: 0px;
+	position: relative;
+	padding-bottom: 50px;
+}
+#info,#Home,#about,#mision,#vision{
+	margin:auto;
+	background-color: #58D3F7;
+	padding: 70px 15px 350px 15px;
+	width: 400px;
+	font-family: cursive;
+	
+}
+#Home{
+	padding-top:100px;
+	
+}
+ul,ol{
+	list-style: none;
+}
+.mis{
+	list-style: square;
+}
+.vis{
+
+}
+.navegador li a{
+	background-color: #FFBF00;
+	color:#000;
+	text-decoration: none;
+	padding:10px 15px;
+	display:block;
+
+}
+.navegador li a:hover{
+background-color: #F3E2A9;
+}
+.navegador > li {
+	float: left;
+
+}
+.navegador{
+	position: fixed;
+	z-index: 100;
+width: 100%;
+margin: 0 auto;
+
+}
+.tabla{
+	table-layout: auto;
+	border-spacing: 5px;
+	border-collapse: separate;
+}
+th{
+	background: #F3F781;
+	font-size: 17px;
+	padding: 5px;
+	border-style: ridge;
+
+}
+td{
+	background-color:#F5F6CE; 
+	font-size: 17px;
+	padding: 7px;
+	border-style: ridge;
+}
+	</style>
+</head>
+<body>
+	<div id="Encabezado">
+		<ul class="navegador">
+			<li><a href="#Home">Home</a></li>
+
+			<li><a href="#about">About</a></li>
+
+			<li><a href="#info"> Sección de información</a></li>
+
+			<li><a href="#mision">Misión</a></li>
+
+			<li><a href="#vision">Visión</a></li>
+		</ul>
+	</div>
+	<div id="Home">
+		<h1>PubliArt</h1><a name="PubliArt"></a>
+		<p>PubliArt es una empresa de publicidad que desde hace varios años ha estado en el mercado de la publicidad satisfaciendo las necesidades de los clientes utlizando métodos de vanguardia y tecnología de punta </p>
+		<div class="visor">
+		<ul>
+		
+		<li><img src="C:\Users\FERNANDO\Desktop\Tarea1\Imagen.png" alt=""></li>
+		<li><img src="http://comunidadblogger.net/wp-content/uploads/2016/01/publicidad.jpg" alt=""></li>
+		<li><img src="http://noticias.iberestudios.com/files/2015/09/publicidad-convencional-beneficiosa-para-marca.jpg" alt=""></li>
+		<li><img src="http://comunidad.iebschool.com/iebs/files/2013/08/publicidadenredessociales-01.png" alt=""></li>
+		</ul>
+		</div>
+
+	</div>
+	<div id="about">
+		<h1>Datos del estudiante</h1><a name="Datos"></a>
+		<table class="tabla">
+			<thead>
+				<tr>
+					<th>Nombres</th>
+					<th>Apellidos</th>
+					<th>Carné:</th>
+					<th>Carrera</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Jorge Fernando</td>
+					<td>Mendoza Espinoza</td>
+					<td>201603184</td>
+					<td>Ciencias y Sistemas</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div id="info"><a name="Info"></a>
+
+		<h1>Información general de la empresa</h1>
+		<img src="C:\Users\FERNANDO\Desktop\Tarea1\Imagen.png">
+		<p><b>PubliArt</b> es una empresa líder en el ámbito de la <u>mercadotecnia</u> y <u>publicidad</u> que utiliza métodos de alta calidad y prestigio para hacer reconocer su marca, empresa o productos a sus clientes, Somos “PubliArt” debido a que creemos que la publicidad es el arte de hacer expresar de modo único y creativo a nuestros clientes a toda la población y solo así impactar y persuadir a las personas en adquirir o comprar bienes y servicios que promocionamos.</p>
+		<br><p>Puede encontrarnos en varios centro comerciales reconocidos, puedes llamarnos al número: 1234-5678 o escribirnos a nuestro correo electronico: publiArt.services@gmail.com</p>
+		<audio src="C:\Users\FERNANDO\Desktop\Tarea1\Happy Upbeatmp3.mp3"  autoplay loop="true">
+	</audio>
+	</div>
+	<div id="mision">
+	<h1>Misión</h1><a name="Mision"></a>
+	<ul>
+	<li class="mis">Satisfacer eficientemente la necesidad de publicidad de empresas guatemaltecas, utilizando los diferentes medios publicitarios que existen y aplicando nuestro slogan “No solo publicidad”, prestando servicio al cliente.</li>
+	</ul>
+	</div>
+	<div id="vision">
+	<h1>Visión</h1><a name="Vision"></a>
+	<ol>
+	<li class="vis">Nuestra empresa sea reconocida internacionalmente, como una empresa que brinde un ambiente comercial agradable y con un alto nivel de profesionalismo y así llegar a ser una empresa que rija el mercado publicitario.</li>
+	</ol>
+	</div>
+
+
+
+
+
