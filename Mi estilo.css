@@ -1,0 +1,166 @@
+*{
+	margin: 0;
+	padding: 0;
+	webkit-box-sizing:border-box;
+	moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+h1{
+	text-align: center;
+	font-size: 100px;
+	color: white;
+
+}
+body {
+	background: url(imagen.jpg);
+}
+
+.navegacion {
+	width: 100px;
+	margin: 30px left;
+	background: #3498DB;
+
+}
+
+.navegacion ul {
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li  > a{
+	display: block;
+	padding: 15px 20px;
+	color: #353535;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+
+.menu > li> a{
+	color: white;
+}
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+
+/* submenu*/
+
+.submenu{
+	position: absolute;
+	background: #3498DB;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+/*Termina el Menu*/
+
+/*Comienza la Galeria */
+
+.titulo{
+	text-align: center;
+	font-size: 60px;
+	text-decoration: none;
+	font-family: Arial;
+	font-weight: bold;
+	color: white;
+}
+
+.galeria{
+	text-align: center;
+	display: block;
+}
+
+/*Termina la Galeria*/
+
+/*Comienza la Tabla*/
+
+h2{
+	text-align: center;
+	font-size: 60px;
+	color: white;
+
+}
+table,th,td{
+	margin: auto;
+	border: 1px solid white;
+	font-size: 20px;
+	font-family: Arial;
+	color: #fff;
+}
+
+/*Termina la Tabla*/
+
+/*Comienza información*/
+
+.Negrita{
+	text-align: center;
+	font-family: Arial;
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+}
+
+.Subrayado{
+	text-align: center;
+	font-family: Arial;
+	color: white;
+	font-size: 25px;
+	font-style: normal;
+	text-decoration: underline;
+}
+
+.Cursiva{
+	text-align: center;
+	font-family: Arial;
+	color: white;
+	font-size: 25px;
+	font-style: italic;
+}
+.Regresar{
+	color: white;
+	font-size: 20px;
+}
+/*Termina Información*/
+
+/* comienza la Misión*/
+
+.Misión{
+	text-align: center;
+	font-family: Arial;
+	color: white;
+	font-size: 25px;
+	list-style: square inside;
+}
+/* Termina la Misión*/
+
+/* Comienza la Visión*/
+.Visión{
+	text-align: center;
+	font-family: Arial;
+	color: white;
+	font-size: 25px;
+	list-style: square inside;
+}
+
+/* Termina la Misión*/
