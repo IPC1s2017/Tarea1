@@ -1,0 +1,60 @@
+body{
+	
+	margin: 0;
+	font-family: monospace;
+}
+h1{
+	color: #fff;
+	text-align: center;
+}
+.galeria{
+	width: 90%;
+	margin: auto;
+	list-style:none;
+	padding: 20px;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.galeria li{
+	margin: 5px;
+}
+.galeria img{
+	width: 350px;
+	height: 300px
+}
+
+#header {
+	margin:auto;
+	width: 500px;
+	font-family: arial, Helvetica, sans-serif;
+}
+ul, ol{
+	list-style: none;
+}
+.nav li a{
+	background-color: #fff;
+	color: #17A589;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+}
+.nav li a:hover{
+	background-color: #434343;
+}
+.nav > li{
+	float: left;
+
+}
+.nav li ul{
+	display:none;
+	position: absolute;
+	min-width: 140px;
+}
+.nav li:hover > ul{
+	display: block;
+}
+.nav li ul li{
+	position: relative;
+}
