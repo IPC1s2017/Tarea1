@@ -1,0 +1,169 @@
+body{
+  
+  /* Fondo de cuerpo */
+  background-image:url("http://i63.tinypic.com/ojeavb.jpg");
+  repet: no-repet;
+  background-size:cover;
+  background-attachment:fixed;
+  background-position:center center;
+  text-align:center;
+}
+
+    /* Tipo de texto de cuerpo */
+ h1{
+  font-size:100px;
+  text-transform:lowercase;
+  font-family:Londrina Outline;
+  color: #E60D6B;
+}
+   
+h2{
+  font-size:80px;
+  text-transform:lowercase;
+  font-family:Londrina Outline;
+  color: #E60D6B;
+}
+
+h3 {
+  color: #14213D;
+  font-family: Indie Flower, sans-serif;
+  font-size: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+   
+
+.menu {
+   position: relative;
+   display:iline-block;
+}
+
+/* botonmenu */
+
+.botonmenu {
+  background-color: #EF188E;
+  color: white;
+  padding: 16px;
+  font-family: 'Indie Flower', sans-serif;
+  font-size:26px;
+  border:none;
+  cursor:pointer;
+}
+/*contenidomenu */
+
+
+ .contenidomenu {
+  display:none;
+  position:center;
+  background-color:#3087F0;
+  min-width:8px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,2);
+  z-index:1;
+}
+
+.contenidomenu a {
+  color: white;
+  padding: 8px 16px 16px 8px;
+  text-decoration:none;
+  display:block;
+}
+
+.contenidomenu a:hover{
+  
+background-color: white;
+  color:#3087F0;
+}
+
+.menu:hover .contenidomenu {
+  display:block;
+}
+
+.menu:hover .botonmenu {
+  background-color: white;
+  color:#EF188E;
+}
+
+.producto img {
+  width:70%;
+}
+
+.productos {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-sizing: border-box;
+  width: 40%;
+  margin: 20px auto;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.producto {
+  display: inline-block;
+  margin: 0px 2% 80px 2%;
+  text-align: center;
+  width: 45%;
+}
+
+p{
+font-family:Amatic SC;
+size-font:30px;
+}
+
+table {
+  height: 40%;
+  left: 10%;
+  margin: 20px auto;
+  overflow-y: scroll;
+  position: static;
+  width: 50%;
+}
+
+OL, li , ul {
+background-color: rgba(255, 255, 255, 0.9);
+  box-sizing: border-box;
+  width: 40%;
+  margin: 20px auto;
+  padding: 20px 0px;
+  text-align: center;
+  font-family:Amatic SC;
+  size-font:60px;
+}
+
+thead th {
+  background: #EF188E;
+  color: #FFF;
+  font-family:Londrina Outline;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+tr {
+  background-color: rgba(255, 255, 255, 0.9) ;
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+}
+
+th, td {
+  font-family: Indie Flower, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 20px;
+  text-align: left;
+  width: 33.3333%;
+}
+
+.informacion {
+background-color: rgba(255, 255, 255, 0.9);
+  box-sizing: border-box;
+  width: 40%;
+  margin: 20px auto;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+p{
+
+}
+
+
+  
