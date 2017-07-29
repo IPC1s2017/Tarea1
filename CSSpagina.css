@@ -1,0 +1,209 @@
+ * {
+	margin: 0px;	
+	box-sizing: border-box;
+}
+body {
+
+	background-image: url("fondo.jpg");
+	background-repeat: repeat;
+}
+
+p {
+	font-family: century;
+	font-size: 18px;
+	text-align: justify;
+}
+ .header {
+ max-width: 1000px;
+ height: 80px;
+ background: #000;
+ margin: auto;
+ padding-left: 50px;
+
+ } 
+ #logo {
+ float: right;
+ height: 60px;
+ padding: 20px 50px 0px 50px
+ }
+ 
+ .header ul {
+	 list-style: none;
+	 max-width: 1000px;
+	 padding: 25px 0px;
+	 display: flex;
+	 float: left;
+ }
+ 
+ .barra li, a {
+	color: #FFF;
+	text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	display: block;	
+	font-style: thin;
+	padding: 0px 25px;
+
+ 
+ 
+ }
+ 
+ .barra li {
+	 float: right;
+	 display: block;
+	 cursor: pointer;
+ }
+ 
+ .barra li:hover {
+	color: #FCAA11;
+	cursor: pointer;
+	
+ } 
+ .barra li:hover > ul {
+	 display: block;
+ }
+ 
+ .barra li ul {
+ display: none;
+ position: absolute;
+ background-color: #000;
+
+ 
+ }
+ 
+
+ 
+.galeria {
+  margin: 60px auto;
+  padding: 10px 10px 10px 10px;
+  width: 90%;
+  border: solid black 3px;
+  
+}
+.contenedor {
+	max-width: 1000px;
+	margin: auto;
+	padding: 20px, 20px;
+	 border: solid	#FFF 3px;
+	 background-color: #FFF;
+	 background-color: none;
+	font-family: century;
+	font-size: 18px;
+	height:100%;
+	
+}
+
+.resumen {
+	background-color: none;
+	font-family: century;
+	font-size: 18px;
+}
+	#tit {
+  color: #D7263D;
+  font-family: 'Ruda', sans-serif;
+  font-size: 32px;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+	}
+	
+#parr {
+	margin-top: 20px;
+}
+
+#menu {
+  padding: 0px 0px;
+  margin: 0px 0px;
+  display: block;
+  position: center-center
+}
+table {
+  height: 40%;
+  left: 10%;
+  margin: 20px auto;
+  overflow-y: scroll;
+  position: static;
+  width: 80%;
+  font-size: 18px;
+  
+}
+
+thead th {
+  background: #FF208C;
+  color: #FFF;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 18px;
+  text-align: center;
+}
+
+tr {
+  background: #f4f7f8;
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+  text-align:center;
+}
+
+th, td {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  padding: 20px;
+  text-align: center;
+}
+
+#tituloabout {
+	font-family: Broadway, serif;
+	font-size: 48px;
+	color: #28BE06;
+	font-style: bold;
+	text-align: center;
+}
+#tituloinfo {
+	font-family: Broadway, serif;
+	font-size: 48px;
+	color: #28BE06;
+	font-style: bold;
+	text-align: center;
+}
+ .infor {
+	 margin: auto;
+	 padding: 30px 30px 30px 30px;
+}
+
+.imginfo {
+	margin: auto;
+	padding: 0px 40px 0px 40px;
+}
+	.listav {
+		max-width: 500px;
+		padding: 40px 40px;
+		margin: auto;
+		text-align: justify;
+	}
+	
+#titulov {
+	font-family: Broadway, serif;
+	font-size: 48px;
+	color: #28BE06;
+	font-style: bold;
+	text-align: center;
+}
+
+#titulom {
+	font-family: Broadway, serif;
+	font-size: 48px;
+	color: #28BE06;
+	font-style: bold;
+	text-align: center;
+}
+.mision {
+	max-width: 500px;
+		padding: 40px 40px;
+		margin: auto;
+		text-align: justify;
+}
