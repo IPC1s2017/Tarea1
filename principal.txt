@@ -1,0 +1,101 @@
+<html>
+<head> 
+<title>HOME</title>
+<style type="text/css">
+
+*{
+padding:0px;
+margin:0px;
+
+}
+header, .main{
+background:#7F8C8D; opacity:0.5;
+width:90%;
+max-width:1000px;
+margin:20px auto;
+}
+header nav{
+background:#528FD5;
+overflow:hidden;
+}
+header nav ul{
+list-style:none;
+}
+
+header nav ul li{
+float:left;
+}
+header nav ul li a{
+padding:10px 20px;
+display:block;
+color:#E5E7E9;
+text-decoration:none;
+}
+header nav ul li a:hover {
+background:#75ACEC;
+}
+.main .articles {
+width:68.5%;
+margin-rigt:1.5%;
+float:left;
+
+}
+.main .articles article {
+padding:20px;
+background:#E5E7E9;
+margin-bottom:20px;
+}
+aside {
+width:30%;
+background:#ff8000;
+float:left;
+padding:20px;
+box-sizing:border-box;
+}
+</style>
+
+
+	
+</head>
+
+<body background="musicaagua.jpg"> 
+<header>
+<div class="logotipo">
+<img src="Foto-TV.jpg" width="200" alt="">
+</div>
+<nav>
+<ul>
+<li><a href="home.html">Home</a></li>
+<li><a href="about.html">ABOUT</a></li>
+<li><a href="informacion.html">INFORMACION</a></li>
+<li><a href="mision.html">MISION</a></li>
+<li><a href="vision.html">VISION</a></li>
+</ul>
+</nav>
+</header>
+
+<section class="main">
+<section class="articles">
+<article>
+<h2>SOLUCIONES INTEGRADAS DE TELECOMUNICACIONES Y TECNOLOGIA (S.I.T.T)</h2>
+<p>S.I.T.T es una empresa especializada en el manejo de sistemas de telecomunicaciones y cualquier tecnologia informatica, proporciona mantenimiento e instalacion de equipos de comunicacion asi mismo ofrece el monitoreo y 
+seguridad de sistemas de redes empresariales (LAN, WAN), cuenta con personal especializado en el mundo de la telecomunicacion y sistemas tecnologicos ofreciendo asi un confiable manejo de datos.</p>
+</article>
+
+</section>
+
+<aside>
+<h3>SERVICIOS</h3>
+<image src="sala.jpg" width="100" height="100"/>
+<image src="medicion.jpg" width="100" height="100"/>
+<image src="switch.png" width="100" height="100"/>
+<image src="ing.jpg" width="100" height="100"/>
+<image src="modulos.jpg" width="100" height="100"/>
+<image src="switch.png" width="100" height="100"/>
+
+<p></p>
+</aside>
+
+
+</body>
+</html
