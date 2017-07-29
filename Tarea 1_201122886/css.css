@@ -1,0 +1,45 @@
+.Tabla {
+font-size:25px;
+}
+
+.TablaP {
+font-size:20px;
+border:10px solid;
+border-collapse: separate;
+border-spacing: 1px;
+width: 600;
+}
+
+.TablaP th {
+background-color:skyblue;
+color:red; 
+}
+
+.TablaP td {
+color:#00521D;
+border-color: black;
+background-color: gray;
+border:5px solid;
+text-align:center;
+}
+
+.TablaCursos {
+font-size:40px;
+border:10px solid;
+border-collapse: separate;
+border-spacing: 2px;
+width: 600;
+}
+
+.TablaCursos th {
+background-color:cornflowerblue;
+color:red; 
+}
+
+.TablaCursos td {
+color:SeaGreen;
+border-color: brown;
+background-color: lightsteelblue;
+border:5px solid;
+text-align:center;
+}
