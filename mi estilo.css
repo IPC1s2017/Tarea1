@@ -1,0 +1,73 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+body {
+	margin:auto;
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+			}
+			
+ul, ol {
+	list-style:none;
+}
+			
+.nav > li {
+	float:left;
+}
+			
+.nav li a {
+	background-color:#000;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 12px;
+	display:block;
+}
+			
+.nav li a:hover {
+	background-color:#434343;
+}
+			
+.nav li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+}
+			
+.nav li:hover > ul {
+	display:block;
+}
+			
+.nav li ul li {
+	position:relative;
+}
+			
+.nav li ul li ul {
+	right:-140px;
+	top:0px;
+}
+
+h1 {
+  color: Black;
+  text-decoration: underline;
+  font-family: "Oswald", serif, Arial;
+  font-size: 64px;
+  padding-top: 100px;
+  text-align: Center;
+  width: 75%;
+  text-transform: uppercase;
+
+  
+}
+
+
+p {
+  color: Black;
+  font-style: Italic;
+  font-family: "Dosis", sans-serif,Arial;
+  line-height: 1.7em;
+  text-align: left;
+  width: 100%;
+  font-size: 28px;
+  font-weight: 100;
+}
