@@ -1,0 +1,69 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	font-family: arial;
+	line-height: 1.5em;
+}
+.inicio{
+	background-color: rgba(10,10,10,0.5);
+	padding: 10px 15px;
+
+
+}
+}
+.lista{
+	color: #999;
+	text-decoration: none;
+}
+.entero{
+	float: center;
+}
+#galeria{
+	font-size: 60px;
+	background-color: rgba(10,10,10,0.4);
+}
+img {
+	font-size: 30px;
+}
+#info{
+	background-color: rgba(10,10,10,0.4);
+	text-align: center;
+}
+
+.entero li a {
+
+	color: #CEF6F5;
+	text-decoration: none;
+	
+	background-color: #434343; 
+
+
+}
+.entero > li {
+	float: center;
+
+}
+#mis {
+	font-size: 40px;
+}
+#nombre{
+font-size: 60px;
+}
+#ser{
+	font-size: 40px;
+}
+#vis{
+	font-size: 60px;
+}
+#titulo{
+	background-color: rgba(10,10,10,0.5);
+}
+.vici{
+	background-color: rgba(10,10,10,0.4);
+}
+#misi{
+	background-color: rgba(10,10,10,0.4);
+}
