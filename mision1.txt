@@ -1,0 +1,103 @@
+<html>
+<head> 
+<title>Mision</title>
+<style type="text/css">
+
+*{
+padding:0px;
+margin:0px;
+
+}
+header, .main{
+background:#7F8C8D; opacity:0.5;
+width:90%;
+max-width:1000px;
+margin:20px auto;
+}
+header nav{
+background:#528FD5;
+overflow:hidden;
+}
+header nav ul{
+list-style:none;
+}
+
+header nav ul li{
+float:left;
+}
+header nav ul li a{
+padding:10px 20px;
+display:block;
+color:#E5E7E9;  
+text-decoration:none;
+}
+header nav ul li a:hover {
+background:#75ACEC;
+}
+.main .articles {
+width:68.5%;
+margin-rigt:1.5%;
+float:left;
+
+}
+.main .articles article {
+padding:20px;
+
+margin-bottom:20px;
+}
+aside {
+width:30%;
+background:#ff8000;
+float:left;
+padding:20px;
+box-sizing:border-box;
+}
+</style>
+
+
+	
+</head>
+
+<body background="musicaagua.jpg"> 
+<header>
+<div class="logotipo">
+<img src="Foto-TV.jpg" width="200" alt="">
+</div>
+<nav>
+<ul>
+<li><a href="home.html">Home</a></li>
+<li><a href="about.html">ABOUT</a></li>
+<li><a href="informacion.html">INFORMACION</a></li>
+<li><a href="mision.html">MISION</a></li>
+<li><a href="vision.html">VISION</a></li>
+</ul>
+</nav>
+</header>
+
+<section class="main">
+<section class="articles">
+<article>
+<h2>SOLUCIONES INTEGRADAS DE TELECOMUNICACIONES Y TECNOLOGIA (S.I.T.T)</h2>
+<h3>MISION</h3>
+<ol>
+<p><li>Proporcionar servicios de telecomunicaciones a través de redes tecnológicamente actualizadas y modernas, cumpliendo la normativa vigente e impulsando el crecimiento económico productivo de nuestro país; logrando que todos nuestros clientes, accedan a la comunicación telefónica e internet bajo premisas de calidad y con la mayor eficiencia en la tecnologia de ultima generacion</li></p> 
+<p><li>a nuestros empleados ofrecer un ambiente de trabajo agradable, cordial y alegre, donde se sientan a gusto y se pueda prosperar.</li></p>
+</article>
+
+</section>
+
+<aside>
+<h3>SERVICIOS</h3>
+<image src="sala.jpg" width="100" height="100"/>
+<image src="medicion.jpg" width="100" height="100"/>
+<image src="switch.png" width="100" height="100"/>
+<image src="ing.jpg" width="100" height="100"/>
+<image src="modulos.jpg" width="100" height="100"/>
+<image src="switch.png" width="100" height="100"/>
+
+<p></p>
+</aside>
+
+
+</body>
+</html>
